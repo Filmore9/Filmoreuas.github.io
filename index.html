@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UAS MOBWEB</title>
+	<meta name='viewport' content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="./smartphone.css">
+	<link rel="stylesheet" media="(min-width:480px)" type="text/css" href="./desktop.css">
+
+</head>
+<body>
+	<img src='bank.jpg'>
+	<br>
+	Input Nama: <input type="text" id="input-nama"><br>
+	Usia: <input type="text" id="input-usia"><br>
+	Uang Awal: <input type="text" id="input-uang-awal"><br>
+	Suku Bunga Per Tahun: <input type="text" id="input-sbpt"><br>
+	Lama Penyimpanan (dalam tahun): <input type="text" id="input-lama"><br>
+	<button id='submit-button'>Submit</button>
+
+	<h3>Table</h3>
+	<div class='tbl'>
+		Hasil Uang Akhir: <span id='hasil-akhir'></span><br>
+		History: <br>
+		<div id='hasil-usia'></div>
+		<div id='hasil-lama'></div>
+	</div>
+
+	<script type="text/javascript" src='main.js'></script>
+
+</body>
+</html>
