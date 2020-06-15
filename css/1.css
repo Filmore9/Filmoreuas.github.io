@@ -1,0 +1,9 @@
+img {
+	width: 50vw;
+}
+
+.tbl {
+	width: 50%;
+	border: 2px solid;
+	font-size: 32px;
+}
