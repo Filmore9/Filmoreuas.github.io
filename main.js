@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
     		setTable(checkhasil, checknama, checkusia, checklama);
     	}
 
-        navigator.serviceWorker.register('./service-worker.js')
+        navigator.serviceWorker.register('./sworker.js')
             .then((reg) => {
                 console.log('Service worker registered. scope: ', reg.scope);
             }, function(err) {
